@@ -1,0 +1,36 @@
+.card {
+  color: #4287f5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.remove-cart-btn {
+  margin: 10px;
+  width: 60%;
+  align-self: center;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  height: 32px;
+}
+
+.card-container {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-item {
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

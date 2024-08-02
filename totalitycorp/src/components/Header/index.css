@@ -1,0 +1,53 @@
+.nav-header {
+  height: 25vh;
+  background-color: aquamarine;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.blog-title {
+  font-family: "Roboto";
+  color: black;
+  font-size: 16px;
+}
+
+.sub-title {
+  color: white;
+  font-family: "Roboto";
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: "Roboto";
+    color: red;
+    font-size: 34px;
+  }
+}

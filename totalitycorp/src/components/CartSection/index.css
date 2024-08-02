@@ -1,0 +1,21 @@
+.total {
+  color: #f54287;
+  display: flex;
+  justify-content: center;
+}
+
+.cost {
+  color: #1060c9;
+}
+
+.total-card {
+  border: 3px #deed0c solid;
+  border-radius: 4px;
+}
+
+.button-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
